@@ -298,7 +298,7 @@ void display(void){
             glPushMatrix();                 //Preserve CTM for object
             glTranslated(tx, ty, 0);
             glTranslated(6.5, 0, z_viewPoint);
-            glRotated(-40, 1, 0, 0);
+            glRotated(40, 1, 0, 0);
             glTranslated(-6, 0, z_viewPoint*(-1));
             rocket_assembly();
             stars();
